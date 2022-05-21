@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91E5978328387B1E007F4127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5978228387B1E007F4127 /* AppDelegate.swift */; };
+		91E5978528387B1E007F4127 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5978428387B1E007F4127 /* SceneDelegate.swift */; };
+		91E5978728387B1E007F4127 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5978628387B1E007F4127 /* ViewController.swift */; };
+		91E5978D28387B1E007F4127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E5978B28387B1E007F4127 /* LaunchScreen.storyboard */; };
+		91E5979828387B1F007F4127 /* nutriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5979728387B1F007F4127 /* nutriTests.swift */; };
+		91E597A228387B1F007F4127 /* nutriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E597A128387B1F007F4127 /* nutriUITests.swift */; };
+		91E597A428387B1F007F4127 /* nutriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E597A328387B1F007F4127 /* nutriUITestsLaunchTests.swift */; };
+		91E597B328387BE6007F4127 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E597B228387BE6007F4127 /* MainStoryboard.storyboard */; };
+		91E597B528387C23007F4127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E597B428387C23007F4127 /* Assets.xcassets */; };
+		91E597BD28396420007F4127 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E597BC28396420007F4127 /* ViewController2.swift */; };
+		91E597BF28396775007F4127 /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E597BE28396775007F4127 /* Paciente.swift */; };
+		91E597C128396B84007F4127 /* CellPacientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E597C028396B84007F4127 /* CellPacientesController.swift */; };
+		91E597C328397A3D007F4127 /* DetailsPacienteontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E597C228397A3D007F4127 /* DetailsPacienteontroller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91E5979428387B1F007F4127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91E5977728387B1E007F4127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91E5977E28387B1E007F4127;
+			remoteInfo = nutri;
+		};
+		91E5979E28387B1F007F4127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91E5977728387B1E007F4127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91E5977E28387B1E007F4127;
+			remoteInfo = nutri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91E5977F28387B1E007F4127 /* nutri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nutri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E5978228387B1E007F4127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91E5978428387B1E007F4127 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		91E5978628387B1E007F4127 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91E5978C28387B1E007F4127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91E5978E28387B1E007F4127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E5979328387B1F007F4127 /* nutriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nutriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E5979728387B1F007F4127 /* nutriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutriTests.swift; sourceTree = "<group>"; };
+		91E5979D28387B1F007F4127 /* nutriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nutriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E597A128387B1F007F4127 /* nutriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutriUITests.swift; sourceTree = "<group>"; };
+		91E597A328387B1F007F4127 /* nutriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91E597B228387BE6007F4127 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		91E597B428387C23007F4127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91E597BC28396420007F4127 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		91E597BE28396775007F4127 /* Paciente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paciente.swift; sourceTree = "<group>"; };
+		91E597C028396B84007F4127 /* CellPacientesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellPacientesController.swift; sourceTree = "<group>"; };
+		91E597C228397A3D007F4127 /* DetailsPacienteontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPacienteontroller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91E5977C28387B1E007F4127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E5979028387B1F007F4127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E5979A28387B1F007F4127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91E5977628387B1E007F4127 = {
+			isa = PBXGroup;
+			children = (
+				91E597B428387C23007F4127 /* Assets.xcassets */,
+				91E5978128387B1E007F4127 /* nutri */,
+				91E5979628387B1F007F4127 /* nutriTests */,
+				91E597A028387B1F007F4127 /* nutriUITests */,
+				91E5978028387B1E007F4127 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91E5978028387B1E007F4127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91E5977F28387B1E007F4127 /* nutri.app */,
+				91E5979328387B1F007F4127 /* nutriTests.xctest */,
+				91E5979D28387B1F007F4127 /* nutriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91E5978128387B1E007F4127 /* nutri */ = {
+			isa = PBXGroup;
+			children = (
+				91E5978228387B1E007F4127 /* AppDelegate.swift */,
+				91E5978428387B1E007F4127 /* SceneDelegate.swift */,
+				91E5978628387B1E007F4127 /* ViewController.swift */,
+				91E597B228387BE6007F4127 /* MainStoryboard.storyboard */,
+				91E5978B28387B1E007F4127 /* LaunchScreen.storyboard */,
+				91E5978E28387B1E007F4127 /* Info.plist */,
+				91E597BC28396420007F4127 /* ViewController2.swift */,
+				91E597BE28396775007F4127 /* Paciente.swift */,
+				91E597C028396B84007F4127 /* CellPacientesController.swift */,
+				91E597C228397A3D007F4127 /* DetailsPacienteontroller.swift */,
+			);
+			path = nutri;
+			sourceTree = "<group>";
+		};
+		91E5979628387B1F007F4127 /* nutriTests */ = {
+			isa = PBXGroup;
+			children = (
+				91E5979728387B1F007F4127 /* nutriTests.swift */,
+			);
+			path = nutriTests;
+			sourceTree = "<group>";
+		};
+		91E597A028387B1F007F4127 /* nutriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91E597A128387B1F007F4127 /* nutriUITests.swift */,
+				91E597A328387B1F007F4127 /* nutriUITestsLaunchTests.swift */,
+			);
+			path = nutriUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91E5977E28387B1E007F4127 /* nutri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E597A728387B1F007F4127 /* Build configuration list for PBXNativeTarget "nutri" */;
+			buildPhases = (
+				91E5977B28387B1E007F4127 /* Sources */,
+				91E5977C28387B1E007F4127 /* Frameworks */,
+				91E5977D28387B1E007F4127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nutri;
+			productName = nutri;
+			productReference = 91E5977F28387B1E007F4127 /* nutri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91E5979228387B1F007F4127 /* nutriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E597AA28387B1F007F4127 /* Build configuration list for PBXNativeTarget "nutriTests" */;
+			buildPhases = (
+				91E5978F28387B1F007F4127 /* Sources */,
+				91E5979028387B1F007F4127 /* Frameworks */,
+				91E5979128387B1F007F4127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91E5979528387B1F007F4127 /* PBXTargetDependency */,
+			);
+			name = nutriTests;
+			productName = nutriTests;
+			productReference = 91E5979328387B1F007F4127 /* nutriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91E5979C28387B1F007F4127 /* nutriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E597AD28387B1F007F4127 /* Build configuration list for PBXNativeTarget "nutriUITests" */;
+			buildPhases = (
+				91E5979928387B1F007F4127 /* Sources */,
+				91E5979A28387B1F007F4127 /* Frameworks */,
+				91E5979B28387B1F007F4127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91E5979F28387B1F007F4127 /* PBXTargetDependency */,
+			);
+			name = nutriUITests;
+			productName = nutriUITests;
+			productReference = 91E5979D28387B1F007F4127 /* nutriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91E5977728387B1E007F4127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					91E5977E28387B1E007F4127 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					91E5979228387B1F007F4127 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 91E5977E28387B1E007F4127;
+					};
+					91E5979C28387B1F007F4127 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 91E5977E28387B1E007F4127;
+					};
+				};
+			};
+			buildConfigurationList = 91E5977A28387B1E007F4127 /* Build configuration list for PBXProject "nutri" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91E5977628387B1E007F4127;
+			productRefGroup = 91E5978028387B1E007F4127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91E5977E28387B1E007F4127 /* nutri */,
+				91E5979228387B1F007F4127 /* nutriTests */,
+				91E5979C28387B1F007F4127 /* nutriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91E5977D28387B1E007F4127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E597B328387BE6007F4127 /* MainStoryboard.storyboard in Resources */,
+				91E597B528387C23007F4127 /* Assets.xcassets in Resources */,
+				91E5978D28387B1E007F4127 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E5979128387B1F007F4127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E5979B28387B1F007F4127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91E5977B28387B1E007F4127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E597BF28396775007F4127 /* Paciente.swift in Sources */,
+				91E597C328397A3D007F4127 /* DetailsPacienteontroller.swift in Sources */,
+				91E5978728387B1E007F4127 /* ViewController.swift in Sources */,
+				91E5978328387B1E007F4127 /* AppDelegate.swift in Sources */,
+				91E5978528387B1E007F4127 /* SceneDelegate.swift in Sources */,
+				91E597BD28396420007F4127 /* ViewController2.swift in Sources */,
+				91E597C128396B84007F4127 /* CellPacientesController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E5978F28387B1F007F4127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E5979828387B1F007F4127 /* nutriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E5979928387B1F007F4127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E597A228387B1F007F4127 /* nutriUITests.swift in Sources */,
+				91E597A428387B1F007F4127 /* nutriUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91E5979528387B1F007F4127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91E5977E28387B1E007F4127 /* nutri */;
+			targetProxy = 91E5979428387B1F007F4127 /* PBXContainerItemProxy */;
+		};
+		91E5979F28387B1F007F4127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91E5977E28387B1E007F4127 /* nutri */;
+			targetProxy = 91E5979E28387B1F007F4127 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91E5978B28387B1E007F4127 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91E5978C28387B1E007F4127 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91E597A528387B1F007F4127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91E597A628387B1F007F4127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91E597A828387B1F007F4127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nutri/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AleC.nutri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91E597A928387B1F007F4127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nutri/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AleC.nutri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91E597AB28387B1F007F4127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AleC.nutriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nutri.app/nutri";
+			};
+			name = Debug;
+		};
+		91E597AC28387B1F007F4127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AleC.nutriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nutri.app/nutri";
+			};
+			name = Release;
+		};
+		91E597AE28387B1F007F4127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AleC.nutriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nutri;
+			};
+			name = Debug;
+		};
+		91E597AF28387B1F007F4127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AleC.nutriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nutri;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91E5977A28387B1E007F4127 /* Build configuration list for PBXProject "nutri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E597A528387B1F007F4127 /* Debug */,
+				91E597A628387B1F007F4127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E597A728387B1F007F4127 /* Build configuration list for PBXNativeTarget "nutri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E597A828387B1F007F4127 /* Debug */,
+				91E597A928387B1F007F4127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E597AA28387B1F007F4127 /* Build configuration list for PBXNativeTarget "nutriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E597AB28387B1F007F4127 /* Debug */,
+				91E597AC28387B1F007F4127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E597AD28387B1F007F4127 /* Build configuration list for PBXNativeTarget "nutriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E597AE28387B1F007F4127 /* Debug */,
+				91E597AF28387B1F007F4127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91E5977728387B1E007F4127 /* Project object */;
+}
