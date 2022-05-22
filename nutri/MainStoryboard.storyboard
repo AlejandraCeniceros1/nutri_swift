@@ -213,7 +213,7 @@
                                         <connections>
                                             <outlet property="lblEdad" destination="LbN-WT-Cg7" id="KVo-XP-oMJ"/>
                                             <outlet property="lblNombrePaciente" destination="JLh-IW-FG9" id="OGH-Cw-8Rr"/>
-                                            <segue destination="PgG-mJ-79H" kind="show" id="1um-KM-5nx"/>
+                                            <segue destination="PgG-mJ-79H" kind="show" id="Fpt-aF-UMl"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -411,7 +411,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fac-uZ-yb2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1571.0144927536232" y="178.79464285714286"/>
+            <point key="canvasLocation" x="1657" y="179"/>
         </scene>
     </scenes>
     <resources>
