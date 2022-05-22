@@ -15,11 +15,11 @@
 		91E597A228387B1F007F4127 /* nutriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E597A128387B1F007F4127 /* nutriUITests.swift */; };
 		91E597A428387B1F007F4127 /* nutriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E597A328387B1F007F4127 /* nutriUITestsLaunchTests.swift */; };
 		91E597B328387BE6007F4127 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E597B228387BE6007F4127 /* MainStoryboard.storyboard */; };
-		91E597B528387C23007F4127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E597B428387C23007F4127 /* Assets.xcassets */; };
 		91E597BD28396420007F4127 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E597BC28396420007F4127 /* ViewController2.swift */; };
 		91E597BF28396775007F4127 /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E597BE28396775007F4127 /* Paciente.swift */; };
 		91E597C128396B84007F4127 /* CellPacientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E597C028396B84007F4127 /* CellPacientesController.swift */; };
 		91E597C328397A3D007F4127 /* DetailsPacienteontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E597C228397A3D007F4127 /* DetailsPacienteontroller.swift */; };
+		91F1276C283A98B60013568D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F1276B283A98B60013568D /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +52,11 @@
 		91E597A128387B1F007F4127 /* nutriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutriUITests.swift; sourceTree = "<group>"; };
 		91E597A328387B1F007F4127 /* nutriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutriUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		91E597B228387BE6007F4127 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
-		91E597B428387C23007F4127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91E597BC28396420007F4127 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		91E597BE28396775007F4127 /* Paciente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paciente.swift; sourceTree = "<group>"; };
 		91E597C028396B84007F4127 /* CellPacientesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellPacientesController.swift; sourceTree = "<group>"; };
 		91E597C228397A3D007F4127 /* DetailsPacienteontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPacienteontroller.swift; sourceTree = "<group>"; };
+		91F1276B283A98B60013568D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,6 @@
 		91E5977628387B1E007F4127 = {
 			isa = PBXGroup;
 			children = (
-				91E597B428387C23007F4127 /* Assets.xcassets */,
 				91E5978128387B1E007F4127 /* nutri */,
 				91E5979628387B1F007F4127 /* nutriTests */,
 				91E597A028387B1F007F4127 /* nutriUITests */,
@@ -118,6 +117,7 @@
 				91E597BE28396775007F4127 /* Paciente.swift */,
 				91E597C028396B84007F4127 /* CellPacientesController.swift */,
 				91E597C228397A3D007F4127 /* DetailsPacienteontroller.swift */,
+				91F1276B283A98B60013568D /* Media.xcassets */,
 			);
 			path = nutri;
 			sourceTree = "<group>";
@@ -244,7 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91E597B328387BE6007F4127 /* MainStoryboard.storyboard in Resources */,
-				91E597B528387C23007F4127 /* Assets.xcassets in Resources */,
+				91F1276C283A98B60013568D /* Media.xcassets in Resources */,
 				91E5978D28387B1E007F4127 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
