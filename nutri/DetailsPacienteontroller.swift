@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class DetailsVariantController : UIViewController {
+class DetailsPacienteontroller : UIViewController {
     var paciente : Paciente?
     
     @IBOutlet weak var imgEvidence: UIImageView!

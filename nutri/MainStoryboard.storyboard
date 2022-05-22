@@ -276,10 +276,10 @@
             </objects>
             <point key="canvasLocation" x="911.59420289855075" y="179.46428571428569"/>
         </scene>
-        <!--Details Variant Controller-->
+        <!--Details Pacienteontroller-->
         <scene sceneID="3G7-Zs-2nA">
             <objects>
-                <viewController id="PgG-mJ-79H" customClass="DetailsVariantController" customModule="nutri" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="PgG-mJ-79H" customClass="DetailsPacienteontroller" customModule="nutri" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PQS-8f-c1r">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
