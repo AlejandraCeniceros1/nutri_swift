@@ -10,7 +10,7 @@ import UIKit
 class ViewController2: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     weak var tvPacientes: UITableView!
-    weak var btnVerMas: UIButton!
+    
     var pacientes : [Paciente] = []
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

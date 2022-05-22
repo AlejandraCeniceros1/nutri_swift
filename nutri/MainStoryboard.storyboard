@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gkN-yZ-FhH">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -205,14 +205,10 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="LbN-WT-Cg7" secondAttribute="trailing" constant="226" id="uCH-J2-SZT"/>
                                                 <constraint firstItem="kFQ-8l-9wN" firstAttribute="top" secondItem="ZjD-rZ-j9C" secondAttribute="top" constant="8" id="v0v-OO-sLm"/>
                                             </constraints>
-                                            <connections>
-                                                <outlet property="lblEdad" destination="LbN-WT-Cg7" id="zki-Bz-eXU"/>
-                                                <outlet property="lblNombrePaciente" destination="JLh-IW-FG9" id="HCd-p5-I4i"/>
-                                            </connections>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="lblEdad" destination="LbN-WT-Cg7" id="KVo-XP-oMJ"/>
-                                            <outlet property="lblNombrePaciente" destination="JLh-IW-FG9" id="OGH-Cw-8Rr"/>
+                                            <outlet property="lblEdad" destination="LbN-WT-Cg7" id="MZK-VE-fGk"/>
+                                            <outlet property="lblNombrePaciente" destination="JLh-IW-FG9" id="eXL-Bs-6JG"/>
                                             <segue destination="PgG-mJ-79H" kind="show" id="Fpt-aF-UMl"/>
                                         </connections>
                                     </tableViewCell>
@@ -266,9 +262,6 @@
                         <nil key="title"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="btnVerMas" destination="5n6-7q-H79" id="ZzI-cZ-5IP"/>
-                        <outlet property="lblEdad" destination="LbN-WT-Cg7" id="mhb-Kz-7x7"/>
-                        <outlet property="lblNombrePaciente" destination="JLh-IW-FG9" id="UW3-zb-woz"/>
                         <outlet property="tvPacientes" destination="BNk-DM-TYp" id="PAX-AO-jfV"/>
                     </connections>
                 </viewController>
